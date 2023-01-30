@@ -21,7 +21,7 @@
                         <constraint firstAttribute="height" constant="240" id="oFL-KY-UMb"/>
                     </constraints>
                 </imageView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Имя" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ZC-tw-JKm">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Имя" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ZC-tw-JKm">
                     <rect key="frame" x="150" y="20" width="423" height="30"/>
                     <color key="backgroundColor" systemColor="systemOrangeColor"/>
                     <constraints>
@@ -31,8 +31,8 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Дата рождения" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1vr-E2-qSx">
-                    <rect key="frame" x="160" y="120" width="413" height="30"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Дата рождения" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1vr-E2-qSx">
+                    <rect key="frame" x="150" y="120" width="423" height="30"/>
                     <color key="backgroundColor" systemColor="systemGreenColor"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="30" id="PR8-XC-yKo"/>
@@ -50,7 +50,7 @@
                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                 </textView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Город" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F8x-PW-q6U">
-                    <rect key="frame" x="160" y="220" width="413" height="30"/>
+                    <rect key="frame" x="150" y="220" width="423" height="30"/>
                     <color key="backgroundColor" systemColor="systemPurpleColor"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="30" id="kUc-9s-F82"/>
@@ -70,8 +70,8 @@
                 <constraint firstItem="F8x-PW-q6U" firstAttribute="top" secondItem="1vr-E2-qSx" secondAttribute="bottom" constant="70" id="JAz-0L-5wO"/>
                 <constraint firstAttribute="trailing" secondItem="1vr-E2-qSx" secondAttribute="trailing" constant="20" id="JIT-xr-3Pe"/>
                 <constraint firstAttribute="trailing" secondItem="IOA-IP-7tZ" secondAttribute="trailing" constant="20" id="Jzu-ct-JR4"/>
-                <constraint firstItem="F8x-PW-q6U" firstAttribute="leading" secondItem="mDn-fC-xh5" secondAttribute="trailing" constant="20" id="LBg-l5-kyM"/>
-                <constraint firstItem="1vr-E2-qSx" firstAttribute="leading" secondItem="mDn-fC-xh5" secondAttribute="trailing" constant="20" id="LLv-gF-fjO"/>
+                <constraint firstItem="F8x-PW-q6U" firstAttribute="leading" secondItem="mDn-fC-xh5" secondAttribute="trailing" constant="10" id="LBg-l5-kyM"/>
+                <constraint firstItem="1vr-E2-qSx" firstAttribute="leading" secondItem="mDn-fC-xh5" secondAttribute="trailing" constant="10" id="LLv-gF-fjO"/>
                 <constraint firstAttribute="trailing" secondItem="F8x-PW-q6U" secondAttribute="trailing" constant="20" id="RVo-3p-Upb"/>
                 <constraint firstAttribute="trailing" secondItem="1ZC-tw-JKm" secondAttribute="trailing" constant="20" id="YPC-Mp-2Vd"/>
                 <constraint firstItem="1vr-E2-qSx" firstAttribute="top" secondItem="1ZC-tw-JKm" secondAttribute="bottom" constant="70" id="bEf-LL-3HG"/>
